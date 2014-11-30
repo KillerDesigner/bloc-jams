@@ -27,7 +27,6 @@ var updateCollectionView = function() {
    var $newThumbnail = buildAlbumThumbnail();
    $collection.append($newThumbnail);
  }
- console.log(randomNumber);
 };
 
 if (document.URL.match(/\/collection.html/)) {
