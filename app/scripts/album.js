@@ -30,7 +30,7 @@ var albumMarconi = {
    ]
 };
 
-var currentlyPlayingSong = null;
+var currentlyPlayingSong = null; // Assigning a global variable outside of the scope of the function.
 var createSongRow = function(songNumber, songName, songLength) {
  var template =
      '<tr>'
